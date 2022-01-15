@@ -1,16 +1,42 @@
 $(document).ready(function() {
-
-$(window).scroll(function(){
     var x = $(".about").position();
 
+    $(".rlink").mouseenter(function() {
+        $(this).css("color", "gray");
+
+    });
+    $(".rlink").mouseleave(function() {
+        if($(window).scrollTop()>=x.top-90){
+        $(this).css("color", "black");
+        }else{
+        $(this).css("color", "white");
+        }
+    });
+
+
+
+
+
+
+
+
+    $(window).scroll(function(){
+
+    
+        if($(window).scrollTop()<=x.top-85){
+            $(".rlink").css("color","white");
+        }else{
+            $(".rlink").css("color","black");
+        }
     
 
+    if($(window).scrollTop()<=x.top-116){
+        $(".nav").css("background-color","rgb(28, 28, 28)");
+    }else if($(window).scrollTop()>=x.top-115&&$(window).scrollTop()<=x.top-12){
+        $(".nav").css("background-color","transparent");
 
-    if($(window).scrollTop()>=x.top-43){
-        $(".rlink").css("color","black");
     }else{
-        $(".rlink").css("color","white");
-
+        $(".nav").css("background-color","white");
     }
 
 
