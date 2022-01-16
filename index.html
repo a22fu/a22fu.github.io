@@ -1,58 +1,115 @@
+<!-- Alexander Fu's Personal Website - HTML -->
+
 <!DOCTYPE html>
 
 <html>
   <head>
-    <link rel="stylesheet" href="https://use.typekit.net/wob4gnj.css">
-
+    <!-- Link to jquery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+    <!-- Link to source-sans-pro font, CSS file and JS file -->
+    <link rel="stylesheet" href="https://use.typekit.net/wob4gnj.css" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="scroll.js"></script>
-
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8"/>
     <title>Alexander Fu</title>
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="styles.css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8"> 
   </head>
+  
   <body>
-    
-    <div class="nav">
-      <p class="align">
-      <a class="rlink" href="#top">Home</a>
-      <a class="rlink" href="#about_h">About</a>
-      <a class="rlink" href="index.html">Contact me</a>
-        </p>
+  <!-- Navigation bar fixed to the top of page -->    
+    <div id="nav">
+      <p class="container">
+        <a class="rlink" href="#top">Home</a>
+        <a class="rlink" href="#about_h">About</a>
+        <a class="rlink" href="#contact_h">Contact me</a>
+      </p>
     </div>
 
+  <!-- Initial home page -->        
     <div class="home">
-      <div class="imgcont">
-      <img class="profile" src="images/profile.jpg">
+    <!-- Profile picture -->    
+      <div class="imgcontainer">
+        <img id="profile" src="images/profile.jpg" />
       </div>
+    <!-- Introductory header and paragraph -->    
       <h1 class="heading" id="name">I'm Alex Fu.</h1>
-      <p id="intro">I'm a first-year Double Degree student (CS/BBA) at the University of Waterloo and Wilfrid Laurier University.
-        <br>Scroll down to find out more about me!
+      <p id="intro">
+        I'm a first-year Double Degree student (CS/BBA) at the University of
+        Waterloo and Wilfrid Laurier University. 
+        <br/>Scroll down to find out
+        more about me!
       </p>
-      <a class="scroll" id="scrol" href="#about_h">
-        <img class="scroll" id="scrolll" src="images/scroll.png">
+    <!-- Scroll down button to about-->    
+      <a class="scroll" id="scrolllink" href="#about_h">
+        <img class="scroll" id="scrollimg" src="images/scroll.png" />
       </a>
     </div>
 
+  <!-- About me page -->            
     <div class="about">
+    <!-- About me heading and paragraph -->        
       <h2 class="heading" id="about_h">About Me</h2>
-      <p id="about_p"> 
-        Hi I'm Alex! I'm in my first year of my Computer Science and Business 
-        Administration Double Degree at the University of Waterloo. I have a passion for designing
-        programs and using technology to solve problems. 
-        <br>
-        <br>
-        My interest in coding has always been driven by a desire to create all sorts of cool projects and bringing my 
-        ideas to life.
-        In my spare time, I love playing badminton, playing video games and travelling the world (though it has been quite
-        a difficulty these past two years). I've saved tons of these experiences and memories which you can come look at!
-        <br>
-        <br>
-        Currently, I'm looking for a co-op job for the next term 
+      <img class="chill" src="images/lit.png" alt="near death experience" />
+      <p id="about_p">
+        Hi I'm Alex! I'm in my first year of my Computer Science and Business
+        Administration Double Degree at the University of Waterloo. I have a
+        passion for designing programs and using technology to solve problems.
+        <br />
+        <br />
+        My interest in coding has always been driven by a desire to create all
+        sorts of cool projects and bringing my ideas to life. In my spare time,
+        I love playing badminton, playing video games and travelling the world
+        (though it has been quite a difficulty these past two years). I've saved
+        tons of these experiences and memories which you can come look at!
+        <br />
+        <br />
+        Currently, I've been focusing on my studies at home and trying to a find
+        a co-op software developement job for the next term. This website is
+        still in it's early stages and will continue to be developed.
       </p>
+      <!-- Scroll down to contact me -->        
+      <a class="scroll" id="scrolllink2" href="#contact_h">
+        <img class="scroll" id="scrollimg2" src="images/scrollblack.png" />
+      </a>
+    </div>
+
+  <!-- Contact me page -->        
+    <div class="Contact">
+      <!-- Contact me heading -->        
+      <h2 class="heading" id="contact_h">You can contact me here!</h2>
+      <!-- Links container -->        
+      <div id="linkcont">
+      <!-- Links to github, linkedin and email -->        
+        <a
+          class="contactlink"
+          href="https://github.com/a22fu"
+          id="github"
+          target="_blank"
+        >
+          <img class="links" src="images/github.png" alt="github" />
+        </a>
+
+        <a
+          class="contactlink"
+          href="https://www.linkedin.com/in/a22fu/"
+          id="linkedin"
+          target="_blank"
+        >
+
+          <img class="links" src="images/linkedin.png" alt="linkedin" />
+        </a>
+        <a
+          class="contactlink"
+          href="mailto:a22fu@uwaterloo.ca"
+          id="email"
+          target="_blank"
+        >
+          <img class="links" src="images/email.png" alt="e-mail" />
+        </a>
+      </div>
     </div>
   </body>
 </html>
