@@ -1,122 +1,178 @@
-.nav{
-    position:fixed;
-    top: 0px;
-    background-color: rgb(28, 28, 28);
-    width:100%;
+/* Alexander Fu's Personal Website - CSS */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+#nav {
+/* Default nav bar colour, size and fixed position */
+  position: fixed;
+  top: 0px;
+  background-color: rgb(28, 28, 28);
+  width: 100%;
+  text-align: center;
+}
+.container{
+  height:8%;
+}
+.rlink {
+/* Navbar link font, colour and spacing between eachother */
+
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-size: 126%;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p {
+  /* Set default font for the entire document. Center all texts */
+      text-align: center;
+      font-family: source-sans-pro, sans-serif;
+      font-style: normal;
+}
+
+.heading {
+  /* Set all header fonts to be consistent. Center align texts */
     text-align: center;
-}
-
-
-.rlink{
-    text-decoration: none;
-
-    margin: 10px;
-    color:white;
-    font-size: 126%;
+    font-weight: lighter;
     font-family: source-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-    font-weight: 200;
-    
-    font-style: normal;}
-
-.profile{
-    border-radius: 50%;
-    height: 12.5%;
-    width: 12.5%;
-    display: block; 
-    margin:auto;
-    
-    
-
+.home {
+  /* Set the initial home page background image */
+    margin-top: -3%;
+    background-image: url(images/background.jpg);
+    min-height: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
 }
 
-.imgcont{
+#profile {
+/* Set the profile picture to be circular, sized and positioned in the middle */
+  border-radius: 50%;
+  height: 12.5%;
+  width: 12.5%;
+  display: block;
+  margin: auto;
+}
+.imgcontainer {
     padding-top: 10%;
 }
 
-#intro{
-    color:white;
-    font-size: 189%;
-    padding-left: 20%;
-    padding-right: 20%;
-    font-weight: 200;
-
-}
-
-p{
-    text-align: center;
-    font-family: source-sans-pro, sans-serif;
-
-    
-    font-style: normal;
-
-}
-
-
-#name{
+#name {
+  /* Set the intro header font size and colour */
     color: white;
     margin-top: 2%;
     font-size: 440%;
 }
-.heading{
-    text-align: center;
-    font-weight: lighter;
-    font-family: source-sans-pro, sans-serif;
 
-    font-weight: 400;
-    
-    font-style: normal;}
+#intro {
+/* Set font colour and size. Pad the paragraph both sides */
+  color: white;
+  font-size: 189%;
+  font-weight: 200;  
 
-.home{
-    margin-top:-3%;
-    background-image: url(images/background.jpg) ; 
-    min-height: 100%;
-    height: auto;
-
-    background-position: center;
-    background-repeat:repeat;
-    background-size: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
-.about{
-    min-height: 100%;
-    height: auto;
-
-
+.about {
+/* Set the initial about page size */
+  min-height: 100%;
+  height: auto;
 }
 
-.scroll{
-    height: 55px;
-    width: 55px;
-    display: block;
-    margin-left: auto;
-    margin-top: 3.1%;
-    padding-bottom: 1.11%;
-    margin-right: auto;
-    pointer-events:auto;
+.scroll {
+/* Set the size and position of the two scroll buttons */
+  height: 55px;
+  width: 55px;
+  display: block;
+  margin-left: auto;
+  margin-top: 3.1%;
+  padding-bottom: 1.11%;
+  margin-right: auto;
+  pointer-events: auto;
 }
-html, body {
-    margin:0;
-    padding:0;
-    height:100%;
-    overflow: none;
-    scroll-behavior: smooth;
-
-    
-    }
-
-
-#about_h{
-    font-size: 400%;
-    padding-top: 4%;
+#scrolllink2 {
+  margin-top: 7.2%;
 }
-#about_p{
-    
-    font-size: 1rem;
-    margin-top:-2%;
-    padding-left: 40%;
-    padding-right: 30%;
-    text-align:justify;
-    font-weight: 399;
 
+#about_h {
+/* Set the size of the font of the about heading */
+  font-size: 400%;
+  padding-top: 4%;
 }
+.chill {
+/* set the size and position of the large about me picture */
+  margin-top: -2%   ;
+  height: 22%;
+  width: 22%;
+  float: left;
+  padding-left: 23%;
+}
+#about_p {
+/* Set the size of the font and position of the about paragraph */
+  font-size: 1rem;
+  font-weight: 399;
+  margin-top: -2%;
+  padding-left: 47%;
+  padding-right: 25%;
+  text-align: justify;
+  
+}
+.Contact {
+/* Set the background image and size of the Contact me page */
+  min-height: 100%;
+  height: auto;
+  background-image: url(images/background.jpg);
+
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+#contact_h {
+/* Set the size and colour of the contact me header */
+  color: white;
+  font-size: 400%;
+  padding-top: 4%;
+}
+
+.contactlink {
+/* set size and horizontally center the circular links */
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+
+  display: inline-block;
+  margin: auto;
+}
+.links {
+  height: 85%;
+  width: 85%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  padding-bottom: 1.11%;
+  margin-right: auto;
+  pointer-events: auto;
+}
+
+#linkcont {
+/* set position and size of the link container */
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
