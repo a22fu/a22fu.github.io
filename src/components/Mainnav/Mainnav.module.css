@@ -1,0 +1,19 @@
+
+.navbar{
+    @apply w-[calc(100vw-(100vw-100%))] justify-center z-50 fixed top-0;
+    @apply bg-transparent;
+}
+
+.list{
+    
+    @apply w-fit flex list-none mx-auto;
+    @apply rounded-2xl border-solid border-2 border-stone-700;
+    @apply bg-green-500;
+
+}
+
+.item{
+    @apply px-5 font-sans;
+    @apply rounded-2xl border-solid border-2 border-stone-700;
+    @apply bg-red-700;
+}
