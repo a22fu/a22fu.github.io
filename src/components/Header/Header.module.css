@@ -1,4 +1,13 @@
-.screenfiller{
-    @apply h-dvh w-[calc(100vw-(100vw-100%))] bg-slate-700;    
+.screenFiller{
+    @apply flex relative justify-center h-dvh w-[calc(100vw-(100vw-100%))] bg-sky-300;    
 }
 
+.text{
+    @apply font-sans;
+}
+
+.title{
+    
+    font-size: clamp(4rem, 10vw, 10rem);
+    @apply text top-1/4 h-40 -mt-20 align-middle absolute;
+}
