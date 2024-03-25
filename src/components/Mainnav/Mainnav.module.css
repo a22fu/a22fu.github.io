@@ -1,18 +1,19 @@
-.navbar{
-    @apply w-[calc(100vw-(100vw-100%))] justify-center z-50 fixed top-0;
-    @apply bg-transparent;
+.navbar {
+  @apply w-[calc(100vw-(100vw-100%))] h-16;
+  @apply place-items-center content-center grid;
+  @apply z-50 border-white fixed;
+  @apply bg-transparent;
+  border-bottom-width: 1px;
 }
 
-.list{
-    
-    @apply w-full justify-center flex list-none mx-auto;
-    @apply border-solid border-2 border-stone-700;
-    @apply bg-green-500;
+.list {
+  @apply w-full justify-center flex list-none mx-auto;
 
+  /* @apply border-solid border-2 border-stone-700; */
+  @apply bg-transparent;
 }
 
-.item{
-    @apply px-5 font-sans;
-    @apply rounded-2xl border-solid border-2 border-stone-700;
-    @apply bg-red-700;
+.item {
+  @apply px-5 font-sans text-white;
+  @apply bg-transparent;
 }
