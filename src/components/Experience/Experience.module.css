@@ -1,4 +1,19 @@
-.screenfiller{
-    @apply h-dvh w-[calc(100vw-(100vw-100%))] bg-gray-400;    
-}
+.screenFiller {
+    @apply flex flex-col items-center justify-center h-screen text-center h-dvh w-[calc(100vw-(100vw-100%))] bg-transparent;
+  }
+  
+  .text {
+    @apply font-sans font-medium;
+  }
+  
+  .title {
+    font-size: clamp(4rem, 10vw, 10rem);
+    @apply text text-white;
+    transform: translateY()
 
+  }
+  
+.gridView {
+  @apply grid h-2/3 w-2/3 grid-cols-2	grid-rows-2	;
+  transform: translateY();
+}

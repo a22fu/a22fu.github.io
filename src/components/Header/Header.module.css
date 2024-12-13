@@ -1,12 +1,23 @@
+:root {
+  --scroll: 0;
+}
+
 .screenFiller {
-  @apply flex relative justify-center h-dvh w-[calc(100vw-(100vw-100%))] bg-black;
+  @apply flex flex-col items-center justify-center h-screen text-center h-dvh w-[calc(100vw-(100vw-100%))] bg-transparent;
 }
 
 .text {
-  @apply font-sans;
+  @apply font-sans font-medium;
+  opacity: calc(0.90 - 2 * var(--scroll));
+
 }
 
 .title {
   font-size: clamp(4rem, 10vw, 10rem);
-  @apply text top-1/4 h-40 -mt-20 align-middle absolute text-white;
+  @apply text text-white;
+}
+
+.subtitle {
+  font-size: clamp(1rem, 2vw, 2rem);
+  @apply text text-white text-left -mt-10;
 }

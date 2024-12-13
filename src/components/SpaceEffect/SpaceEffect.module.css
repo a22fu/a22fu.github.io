@@ -1,0 +1,6 @@
+.canvas{
+    @apply absolute top-0 left-0 -z-10;
+  }
+.container{
+    @apply fixed w-full h-full -z-10;
+}

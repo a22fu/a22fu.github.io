@@ -1,0 +1,4 @@
+.container {
+    @apply bg-white h-full w-full p-0 opacity-15;
+
+}

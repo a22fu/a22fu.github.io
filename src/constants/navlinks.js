@@ -4,10 +4,6 @@ export const navlinks = [
         id: "header"
     },
     {
-        text: "About me",
-        id: "about"
-    },
-    {
         text: "Experience",
         id: "experience"
     },
