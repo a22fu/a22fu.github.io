@@ -1,4 +1,63 @@
 .container {
-    @apply bg-white h-full w-full p-0 opacity-15;
+    @apply flex bg-transparent h-full w-full p-0 p-5;
+    border-style: solid;
+}
+.imgcontainer {
+    @apply relative flex justify-center items-center pr-3; 
+    width: 35%;
+}
+
+.logo {
+@apply w-full;
+aspect-ratio: 1 / 1;
+object-fit: cover;
+}
+
+.textcontainer{
+    @apply flex flex-col justify-center text-left pl-5 w-full border-l-2;
+	border-image: linear-gradient(to bottom, #111, #eee, #111) 1 100%;
+}
+
+
+.text{
+    @apply text-white
+}
+.name{
+    @apply text text-left font-bold;
+    font-size: clamp(0.6rem, 1vw, 1rem);
+
+}
+.title{
+    @apply text text-left;
+    color:rgb(179, 189, 202);
+}
+.date{
+    @apply text text-right;
+    color:rgb(179, 189, 202);
+
+}
+.skills{
+    @apply text text-left flex-wrap flex gap-x-2 gap-y-1;
+}
+.skill{
+    @apply text border rounded-3xl border-transparent px-2;
+    font-size: clamp(0.5rem, 0.75vw, 0.75rem);
+    background-color: rgb(0, 60, 128);
+    color: rgb(30, 192, 204); 
+
+}
+
+.titledate{
+    @apply flex items-center justify-between w-full;
+    font-size: clamp(0.5rem, 0.75vw, 0.75rem);
+    flex-wrap: nowrap;
+    
+}
+
+.description{
+    @apply text my-1 ;
+    color:rgb(146, 157, 170);
+
+    font-size: clamp(0.5rem, 0.75vw, 0.75rem);
 
 }

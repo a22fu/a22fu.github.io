@@ -1,7 +1,7 @@
 export const strings = {
     header:{
         titleText:"Hi, I'm",
-        nameText:" Alex Fu",
+        nameText:" Alex Fu🚀",
         subtitleText:"Computer Science @ UWaterloo"
     },
     experience:{

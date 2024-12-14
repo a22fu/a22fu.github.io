@@ -1,19 +1,20 @@
 .navbar {
-  @apply w-[calc(100vw-(100vw-100%))] h-16;
+  @apply w-[calc(100vw-(100vw-100%))];
   @apply place-items-center content-center grid;
-  @apply z-50 border-white fixed;
+  @apply z-50 fixed;
   @apply bg-transparent;
-  border-bottom-width: 1px;
 }
 
 .list {
-  @apply w-full justify-center flex list-none mx-auto;
+  @apply w-full justify-center flex list-none mx-auto text-2xl mt-5 mb-5;
 
   /* @apply border-solid border-2 border-stone-700; */
   @apply bg-transparent;
 }
 
 .item {
-  @apply px-5 font-sans text-white;
+  @apply px-5 font-sans text-white opacity-90;
   @apply bg-transparent;
 }
+
+

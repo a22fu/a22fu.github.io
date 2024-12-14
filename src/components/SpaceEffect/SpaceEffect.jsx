@@ -20,7 +20,7 @@ const SpaceEffect = ({ children }) => {
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;
 
-    const emojiNumber = 150;
+    const emojiNumber = 100;
     const starimg = new Image();
     const moonimg = new Image();
     const planetimg = new Image();
@@ -44,7 +44,6 @@ const SpaceEffect = ({ children }) => {
       }
     }
     
-
     function randInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
@@ -135,6 +134,13 @@ const SpaceEffect = ({ children }) => {
       requestAnimationFrame(draw);
 
     }
+    window.addEventListener("resize", (event) => {});
+
+    window.onresize = (event) => {
+      canvas.width = parent.offsetWidth;
+      canvas.height = parent.offsetHeight;
+      };
+    
     starimg.onload = () => {
       setup();
       draw();

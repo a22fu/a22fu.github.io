@@ -1,4 +1,34 @@
 [
-    
-
+    {
+        "name": "Magnet Forensics",
+        "title": "Software Developer",
+        "date": "Sept 2024 - Dec 2024",
+        "skills": ["C#", ".NET", "Typescript", "Go", "Jenkins", "Azure",  "AWS", "Okta", "Terraform", "Docker"],
+        "logo": "MagnetLogo.png",
+        "description": "Contributed to Magnet AXIOM, a digital forensics platform, by resolving bugs, writing unit tests, and ensuring the platform's reliability. Automated the generation of technical artifacts, including API documentation and metadata files, to streamline workflows and improve developer efficiency."
+    },    
+    {
+        "name": "Miovision",
+        "title": "Full-stack Developer",
+        "date": "Jan 2024 - Apr 2024",
+        "skills": ["Typescript", "Python", "React", "Node", "Express", "Gitlab", "Tailwind", "Next", "AWS Lambda", "Kubernetes", "Datadog", "Jest"],
+        "logo": "MiovisionLogo.png",
+        "description":"Worked on Miovision One, a cloud-based traffic management platform that is used in over 17,000 municipalities over 50 countries. Collaborated in an Agile environment using Jira to manage sprints."
+    },    
+    {
+        "name": "BlueStreak Electronics",
+        "title": "Software Developer and Database Developer",
+        "date": "Apr 2023 - Aug 2023",
+        "skills": ["Typescript", "Java", "Angular.js", "Spring boot", "Hibernate", "MySQL", "Node"],
+        "logo": "BlueStreakLogo.png",
+        "description":"Designed and maintained REST APIs and a secure web interface to manage a large-scale auto parts database. Refactored data pipelines and implemented tools to support complex business logic and improve data management."
+    },    
+    {
+        "name": "P&P Data Systems",
+        "title": "Software Developer Intern",
+        "date":"Apr 2022 - Aug 2022",
+        "skills": ["Visual Basic", "C#", ".NET", "MSSQL"],
+        "logo": "P&PLogo.png",
+        "description":"Developed software applications and optimized databases for clinical information systems. Built data pipelines to streamline the transformation and integration of healthcare records."
+    }
 ]
