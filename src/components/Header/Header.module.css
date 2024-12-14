@@ -9,15 +9,45 @@
 .text {
   @apply font-sans font-medium;
   opacity: calc(0.90 - 2 * var(--scroll));
-
+  animation: fadeIn 2s;
 }
 
 .title {
   font-size: clamp(4rem, 10vw, 10rem);
-  @apply text text-white;
+  @apply text text-white mt-20;
 }
 
 .subtitle {
   font-size: clamp(1rem, 2vw, 2rem);
   @apply text text-white text-left -mt-10;
 }
+
+.subtitlelist{
+  
+}
+
+.subsubtitle{
+  font-size: clamp(1rem, 2vw, 2rem);
+  @apply text text-white text-left -mt-3;
+  opacity: 0;
+  transform: translateY(100%);
+  animation: scroll-in 0.5s ease forwards;
+  animation-delay: var(--delay, 2s);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  90% { opacity: 0.90; }
+}
+
+@keyframes scroll-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

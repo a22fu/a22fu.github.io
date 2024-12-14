@@ -24,6 +24,12 @@ const Header = () => {
       <div>
         <h1 className={styles.title}>{strings.header.titleText} {<b>{strings.header.nameText}</b>}</h1>
         <h2 className={styles.subtitle}>{strings.header.subtitleText}</h2>
+        <list className={styles.subtitlelist}>
+          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
+          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
+          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
+          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
+        </list>
       </div>
     </div>
   );

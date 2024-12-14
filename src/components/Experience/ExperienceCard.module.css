@@ -25,12 +25,20 @@ object-fit: cover;
 .name{
     @apply text text-left font-bold;
     font-size: clamp(0.6rem, 1vw, 1rem);
-
 }
+.name:hover {
+    color: rgb(30, 192, 204);
+}
+
+
+
+
 .title{
     @apply text text-left;
     color:rgb(179, 189, 202);
 }
+
+
 .date{
     @apply text text-right;
     color:rgb(179, 189, 202);
