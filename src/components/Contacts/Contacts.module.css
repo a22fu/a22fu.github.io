@@ -1,4 +1,14 @@
-.screenfiller{
-    @apply h-dvh w-[calc(100vw-(100vw-100%))] bg-gray-400;    
+.screenFiller {
+    @apply flex flex-col items-center justify-center h-screen text-center h-dvh w-[calc(100vw-(100vw-100%))] bg-transparent;
 }
 
+.text {
+    @apply font-sans font-medium opacity-90;
+}
+  
+.title {
+    font-size: clamp(3rem, 4vw, 4rem);
+    @apply text text-white;
+    transform: translateY()
+}
+  

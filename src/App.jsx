@@ -15,7 +15,6 @@ const App = () => {
   return (
     <div className="w-[calc(100vw-(100vw-100%))]">
       <Mainnav />
-      
       <SpaceEffect/>      
       <Header />
       <Experience />

@@ -8,45 +8,88 @@
 
 .text {
   @apply font-sans font-medium;
-  opacity: calc(0.90 - 2 * var(--scroll));
-  animation: fadeIn 2s;
+  opacity: calc(1 - 2 * var(--scroll));
 }
 
 .title {
   font-size: clamp(4rem, 10vw, 10rem);
   @apply text text-white mt-20;
+  animation: fadeIn 2s;
+
 }
 
 .subtitle {
-  font-size: clamp(1rem, 2vw, 2rem);
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
   @apply text text-white text-left -mt-10;
+  animation: fadeIn 1.5s;
+
 }
 
-.subtitlelist{
-  
-}
-
-.subsubtitle{
-  font-size: clamp(1rem, 2vw, 2rem);
+.subtitlelist h2{
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
   @apply text text-white text-left -mt-3;
   opacity: 0;
-  transform: translateY(100%);
-  animation: scroll-in 0.5s ease forwards;
-  animation-delay: var(--delay, 2s);
 }
 
+.subsubtitle1{
+  animation: scroll-in1 0.5s ease forwards;
+  animation-delay: var(--delay, 1.5s);
+}
+.subsubtitle2{
+  animation: scroll-in2 0.5s ease forwards;
+  animation-delay: var(--delay, 1.5s);
+}
+.subsubtitle3{
+  animation: scroll-in3 0.5s ease forwards;
+  animation-delay: var(--delay, 1.5s);
+}
+.subsubtitle4{
+  animation: scroll-in4 0.5s ease forwards;
+  animation-delay: var(--delay, 1.5s);
+}
 @keyframes fadeIn {
   0% { opacity: 0; }
-  90% { opacity: 0.90; }
+  100% { opacity: 1; }
 }
 
-@keyframes scroll-in {
+@keyframes scroll-in1{
   from {
     opacity: 0;
     transform: translateY(-100%);
   }
   to {
-    opacity: 1;
+    opacity: calc(1 - 2 * var(--scroll));
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll-in2 {
+  from {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+  to {
+    opacity: calc(1 - 2 * var(--scroll));
+    transform: translateY(0);
+  }
+}
+@keyframes scroll-in3 {
+  from {
+    opacity: 0;
+    transform: translateY(-300%);
+  }
+  to {
+    opacity: calc(1 - 2 * var(--scroll));
+    transform: translateY(0);
+  }
+}
+@keyframes scroll-in4 {
+  from {
+    opacity: 0;
+    transform: translateY(-400%);
+  }
+  to {
+    opacity: calc(1 - 2 * var(--scroll));
     transform: translateY(0);
   }
 }

@@ -23,12 +23,12 @@ const Header = () => {
     <div id="header" className={styles.screenFiller}>
       <div>
         <h1 className={styles.title}>{strings.header.titleText} {<b>{strings.header.nameText}</b>}</h1>
-        <h2 className={styles.subtitle}>{strings.header.subtitleText}</h2>
+        <h2 className={styles.subtitle}>{strings.header.subtitleText1}</h2>
         <list className={styles.subtitlelist}>
-          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
-          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
-          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
-          <h2 className={styles.subsubtitle}>{strings.header.subtitleText}</h2>
+          <h2 className={styles.subsubtitle1}>{strings.header.subtitleText2}</h2>
+          <h2 className={styles.subsubtitle2}>{strings.header.subtitleText3}</h2>
+          <h2 className={styles.subsubtitle3}>{strings.header.subtitleText4}</h2>
+          <h2 className={styles.subsubtitle4}>{strings.header.subtitleText5}</h2>
         </list>
       </div>
     </div>

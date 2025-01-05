@@ -3,8 +3,8 @@ import styles from './Contacts.module.css'
 
 const Contacts = () => {
   return (
-    <div id="contacts" className = {styles.screenfiller}>
-      <h2>Contacts</h2>
+    <div id="contacts" className = {styles.screenFiller}>
+      <h2 className={styles.title}>Contacts</h2>
     </div>
   );
 };

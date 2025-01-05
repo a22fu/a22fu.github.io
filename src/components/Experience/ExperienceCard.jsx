@@ -3,57 +3,50 @@ import styles from './ExperienceCard.module.css'
 import strings from '../../constants/strings';
 const ExperienceCard = ({data}) => {
     const imgPath = "/companyLogos/" + data.logo
-    console.log(imgPath)
 
 
     useEffect(() => {
     //link hover effect
-        const link = document.getElementById(data.name);
+        const container = document.getElementById(data.name);
+        const link2 = document.getElementById(data.name + "2");
+
         const handleMouseEnter = () => {
-            link.textContent = data.namehover;
+            link2.textContent = data.namehover;
         };
         const handleMouseLeave = () => {
-            link.textContent = data.name;
+            link2.textContent = data.name;
         };
 
-        link.addEventListener('mouseenter', handleMouseEnter);
-        link.addEventListener('mouseleave', handleMouseLeave);
+        container.addEventListener('mouseenter', handleMouseEnter);
+        container.addEventListener('mouseleave', handleMouseLeave);
 
         return () => {
-            link.removeEventListener('mouseenter', handleMouseEnter);
-            link.removeEventListener('mouseleave', handleMouseLeave);
+            container.removeEventListener('mouseenter', handleMouseEnter);
+            container.removeEventListener('mouseleave', handleMouseLeave);
         };
       }, [data.name]);
   return (
-    <div className={styles.container}>
+    <a className={styles.container}  href={data.link} id={data.name} >
         <div className={styles.imgcontainer}>
             <img src={imgPath} className={styles.logo}></img>
         </div>
         <div className={styles.textcontainer}>
-            <div>
-                <a id={data.name} className={styles.name} href={data.link} target='_blank'>
-                    {data.name}
-                </a>
-            </div>
-            <div className={styles.titledate}>
-                <div className={styles.title}>
-                    {data.title}
+            <div className={styles.linkbox}>
+                <div id={data.name + "2"} className={styles.name} target='_blank'>{data.name}</div>
+                <div className={styles.titledate}>
+                    <div className={styles.title}>{data.title}</div>
+                    <div className={styles.date}>{data.date}</div>
                 </div>
-                <div className={styles.date}>
-                    {data.date}
+                <div className={styles.skills}>
+                    {data.skills.map((skill) => (
+                        <div className={styles.skill}>{skill}</div>
+                    ))}
                 </div>
+                <h3 className={styles.description}>{data.description}</h3>
             </div>
-            <div className={styles.skills}>
-                {data.skills.map((skill) => (
-                    <div className={styles.skill}>{skill}</div>
-                ))}
-            </div>
-            <h3 className={styles.description}>
-                {data.description}
-            </h3>
         </div>
 
-    </div>
+    </a>
   );
 };
 

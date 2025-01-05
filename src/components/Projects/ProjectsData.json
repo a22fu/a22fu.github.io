@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Wingman AI",
+        "skills": ["AWS/Riot VCT Hackathon", "AWS (S3, Bedrock, Athena)", "BOTO3", "SQL", "Python", "Javascript", "React", "Flask", "NGINX"],
+        "description":"RAG trained LLM to assist in Valorant Esports related queries",
+        "logo":"wingmanAI.png"
+
+    },    
+    {
+        "name": "Reloved",
+        "skills": ["FUSE designathon", "UI/UX", "Figma"],
+        "description":"Tinder meets Ebay. Matches users based on goods for barter, promoting sustainable exchange and reducing waste.",
+        "logo":"Reloved.png"
+    },    
+    {
+        "name": "Stemify",
+        "skills": ["Kotlin", "Ktor", "Python", "Gradle"],
+        "description": "AI-powered app to split music into stems, aiding musicians in remixing, practicing, and creative production.",
+        "logo":"Stemify.png"
+    },    
+    {
+        "name": "FreshCheck",
+        "skills": ["React Native", "Javascript", "Python", "Veryfi OCR API"],
+        "description":"Using receipt parsing technology to keep track of groceries, expiration dates, and recommend recipes"
+    },    
+    {
+        "name": "Spywatch",
+        "skills": ["Hack the North 2024 Sponsor Prize Winner"],
+        "description":""
+    },    
+    {
+        "name": "a22fu.github.io",
+        "skills": [],
+        "description":""
+    },    
+    {
+        "name": "BombPartyBot",
+        "skills": [],
+        "description":""
+    },    
+    {
+        "name": "COVID-19 News Web Scraper",
+        "skills": [],
+        "description":""
+    },    
+    {
+        "name": "JS Physics Engine",
+        "skills": [],
+        "description":""
+    }
+]
