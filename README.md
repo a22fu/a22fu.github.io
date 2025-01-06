@@ -5,6 +5,8 @@ Explore who I am, what I do, and the cool tech I’m exploring. 🌟
 
 > **✨** I might update this space with exciting technologies and ideas I want to try!
 
+**TODO**: Fix mobile view 💀
+
 ## 📬 **Get in Touch**
 Connect with me directly through:
 - 📧 [Email Me](a22fu@uwaterloo.ca)
