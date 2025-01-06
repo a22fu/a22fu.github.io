@@ -8,11 +8,12 @@
 
 .title {
   font-size: clamp(3rem, 4vw, 4rem);
-  @apply text text-white;
+  @apply text text-white p-5;
   transform: translateY()
 }
 
 .gridView {
-    @apply grid h-2/3 w-2/3 grid-cols-3 gap-6;
-    grid-template-rows: 2fr 1fr 1fr; /* First row is larger */
-  }
+    
+    @apply grid grid-cols-3 gap-6;
+    width: 75%;
+}

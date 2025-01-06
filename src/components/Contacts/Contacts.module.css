@@ -3,12 +3,31 @@
 }
 
 .text {
-    @apply font-sans font-medium opacity-90;
+    @apply font-sans font-medium ;
 }
   
 .title {
     font-size: clamp(3rem, 4vw, 4rem);
-    @apply text text-white;
+    @apply text text-white p-5;
     transform: translateY()
 }
   
+.iconContainer {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .iconLink {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .iconLink:hover {
+    color: #00fff2; /* Golden hover effect */
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    font-size: clamp(2rem, 5vw, 4rem);
+  }

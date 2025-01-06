@@ -3,7 +3,8 @@
         "name": "Wingman AI",
         "skills": ["AWS/Riot VCT Hackathon", "AWS (S3, Bedrock, Athena)", "BOTO3", "SQL", "Python", "Javascript", "React", "Flask", "NGINX"],
         "description":"RAG trained LLM to assist in Valorant Esports related queries",
-        "logo":"wingmanAI.png"
+        "logo":"wingmanAI.png",
+        "link": "https://github.com/a22fu/WingmanAI"
 
     },    
     {
@@ -16,36 +17,43 @@
         "name": "Stemify",
         "skills": ["Kotlin", "Ktor", "Python", "Gradle"],
         "description": "AI-powered app to split music into stems, aiding musicians in remixing, practicing, and creative production.",
-        "logo":"Stemify.png"
+        "logo":"Stemify.png",
+        "link": "https://github.com/a22fu/Stemify"
     },    
     {
         "name": "FreshCheck",
-        "skills": ["React Native", "Javascript", "Python", "Veryfi OCR API"],
-        "description":"Using receipt parsing technology to keep track of groceries, expiration dates, and recommend recipes"
+        "skills": ["Hack the Globe 2022", "React Native", "Javascript", "Python", "Veryfi OCR API"],
+        "description":"Using receipt parsing technology to keep track of groceries, expiration dates, and recommend recipes.",
+        "link": "https://github.com/a22fu/Fresh-Check"
     },    
     {
         "name": "Spywatch",
-        "skills": ["Hack the North 2024 Sponsor Prize Winner"],
-        "description":""
+        "skills": ["Hack the North 2024 Sponsor Prize Winner", "TCP Sockets", "Python", "ffmpeg", "Symphonic API"],
+        "description":"Spy on anyone, anywhere. Analyzing live drone video feed using AI powered lip reading to spy on your neighbours.",
+        "link": "https://github.com/a22fu/SpyWatch"
     },    
     {
         "name": "a22fu.github.io",
-        "skills": [],
-        "description":""
+        "skills": ["React", "Javascript", "Tailwind"],
+        "description":"My personal website, you're looking at it!",
+        "link": "https://github.com/a22fu/personal-site"
     },    
     {
         "name": "BombPartyBot",
-        "skills": [],
-        "description":""
+        "skills": ["Python", "Selenium"],
+        "description": "Automated chrome browser which plays online word-based game, Bombparty.",
+        "link": "https://github.com/a22fu/BombPartyBot"
     },    
     {
         "name": "COVID-19 News Web Scraper",
-        "skills": [],
-        "description":""
+        "skills": ["Javascript", "Node", "Express", "Axios", "Cheerio"],
+        "description": "Simple COVID webscraper design to scrape leading news sites for articles",
+        "link": "https://github.com/a22fu/COVID-News-Scraper"
     },    
     {
         "name": "JS Physics Engine",
-        "skills": [],
-        "description":""
+        "skills": ["Math", "Javascript"],
+        "description":"JS based physics engine, supporting 2d rigid bodies",
+        "link": "https://github.com/a22fu/js-physics-engine"
     }
 ]

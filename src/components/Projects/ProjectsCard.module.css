@@ -1,10 +1,13 @@
 .container {
-    @apply bg-transparent h-full w-full rounded-3xl border-2;
+    @apply bg-transparent w-full rounded-3xl;
+    background-color: rgba(130, 141, 190, 0.1);
     border-style: solid;
+    transition: background-color 0.5s ease; /* Adds smooth transition for background color */
+
 }
 
 .imgcontainer {
-    @apply relative flex justify-center items-center;
+    @apply relative flex justify-center items-center ;
     width: 100%;
 }
 
@@ -18,24 +21,31 @@
 }
 
 .textcontainer {
-    @apply flex flex-col justify-center text-left pl-5 w-full;
+    @apply flex flex-col justify-center text-left pl-5 p-3 w-full;
 }
 
 .text {
-    @apply text-white;
+    @apply text-white ;
 }
 
 .name {
-    @apply text text-left font-bold;
-    font-size: clamp(0.6rem, 1vw, 1rem); /* Adjust to rem based on viewport */
+    @apply text text-left font-bold ;
+    font-size: clamp(0.8rem, 1.2vw, 1.2rem); /* Adjust to rem based on viewport */
 }
 
-.name:hover {
+.container:hover {
+    background-color: rgba(130, 141, 190, 0.4);
+}
+
+.container:hover .name {
     color: rgb(30, 192, 204);
 }
 
+.container:hover .textcontainer {
+    border-image: linear-gradient(to bottom, rgba(59, 59, 59, 0.5), #eee, rgba(59, 59, 59, 0.5)) 1 100%;
+}
 .skills {
-    @apply text text-left flex-wrap flex gap-x-2 gap-y-1;
+    @apply text text-left flex-wrap flex gap-x-2 gap-y-1 ;
 }
 
 .skill {
@@ -45,14 +55,21 @@
     color: rgb(30, 192, 204); 
 }
 
+.goldskill{
+    @apply text border rounded-3xl border-transparent px-2;
+    font-size: clamp(0.5rem, 0.75vw, 0.75rem); /* Adjusting font-size with rem */
+    background-color: rgb(3, 98, 207);
+    color: rgb(228, 186, 0); 
+}
+
 .titledate {
-    @apply flex items-center justify-between w-full;
+    @apply flex items-center justify-between w-full ;
     font-size: clamp(0.5rem, 0.75vw, 0.75rem); /* Using rem/ em with clamp */
     flex-wrap: nowrap;
 }
 
 .description {
-    @apply text my-1;
+    @apply text my-1 ;
     color: rgb(146, 157, 170);
     font-size: clamp(0.5rem, 0.75vw, 0.75rem); /* Font-size adjusted using rem */
 }

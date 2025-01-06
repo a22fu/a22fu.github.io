@@ -12,7 +12,10 @@ export const strings = {
         titleText:"Experience💼"
     },
     projects:{
-        titleText:"Projects"
+        titleText:"Projects⚗️"
+    },
+    contacts:{
+        titleText:"Contacts📩"
     }
 }
 export default strings;
