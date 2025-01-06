@@ -1,7 +1,7 @@
 # 🌐 My Personal Website
 
 🚀 **Welcome to my personal website!**  
-Explore who I am, what I do, and the cool tech I’m exploring. This site is a blend of creativity, tech, and continuous improvement. 🌟  
+Explore who I am, what I do, and the cool tech I’m exploring. 🌟  
 
 > **✨** I might update this space with exciting technologies and ideas I want to try!
 
