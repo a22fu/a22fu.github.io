@@ -2,7 +2,7 @@
   "name": "a22fu.github.io",
   "version": "0.1.0",
   "homepage": "https://a22fu.github.io/a22fu.github.io",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
