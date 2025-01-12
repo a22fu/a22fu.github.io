@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Header,
-  About,
   Mainnav,
   Experience,
   Projects,

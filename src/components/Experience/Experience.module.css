@@ -1,7 +1,7 @@
 .screenFiller {
-    @apply flex flex-col items-center justify-center h-screen text-center h-dvh w-[calc(100vw-(100vw-100%))] bg-transparent;
+  @apply flex flex-col items-center justify-center h-dvh text-center w-[calc(100vw-(100vw-100%))] bg-transparent;
 }
-  
+
 .text {
   @apply font-sans font-medium opacity-90;
 }
@@ -9,16 +9,15 @@
 .title {
   font-size: clamp(3rem, 4vw, 4rem);
   @apply text text-white p-5;
-  transform: translateY()
+  transform: translateY(0); /* Added default value */
 }
 
 .gridView {
-  @apply grid h-2/3 w-2/3 grid-cols-2	grid-rows-2	gap-6;
-  transform: translateY();
+  @apply grid h-2/3 w-2/3 grid-cols-2 grid-rows-2 gap-6;
+  transform: translateY(0); /* Added default value */
 }
 
 .grayedOut {
-  opacity: 0.5;  /* Make the other cards appear grayed out */
-  transition: opacity 0.3s ease;  
-
+  opacity: 0.5; /* Make the other cards appear grayed out */
+  transition: opacity 0.3s ease;
 }
