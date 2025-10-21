@@ -1,7 +1,7 @@
-# Alexander Fu - Portfolio
+# [Alexander Fu - Portfolio](https://a22fu.github.io/)
 Hi 👋
 I'm Alexander Fu, fourth year computer science student at the University of Waterloo, and current Software Engineering and Privacy engineering intern at Shopify!
-This is my personal website where I show off everything I've done! 
+This is my personal website where I show off everything I've done 
 
 ## 📬 Contact me here
 
