@@ -5,8 +5,8 @@ This is my personal website where I show off everything I've done
 
 ## 📬 Contact me here
 
-- **Email**: [alexfu@uwaterloo.ca](mailto:alexfu@uwaterloo.ca)
-- **LinkedIn**: [linkedin.com/in/alexanderfu](https://linkedin.com/in/alexanderfu)
+- **Email**: [alex.fu@uwaterloo.ca](mailto:alex.fu@uwaterloo.ca)
+- **LinkedIn**: [linkedin.com/in/alexanderfu](https://linkedin.com/in/a22fu)
 - **GitHub**: [github.com/a22fu](https://github.com/a22fu)
 
 ---
